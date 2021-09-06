@@ -1,0 +1,7 @@
+在doc目录下输入下列指令从0开始构建文档
+sphinx-quickstart
+sphinx-apidoc -o ./source ../gymjssp
+.\make html
+
+若文档需要更新，只需重新执行下列指令
+.\make html
