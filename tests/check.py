@@ -1,7 +1,7 @@
 import os
 import numpy as np
-os.sys.path.insert(0, '../gymjssp')
-from gymjssp.jsspenv import BasicJsspEnv, GraphJsspEnv, HeuristicJsspEnv, HeuristicGraphJsspEnv, \
+os.sys.path.insert(0, '../gymjsp')
+from gymjsp.jsspenv import BasicJsspEnv, GraphJsspEnv, HeuristicJsspEnv, HeuristicGraphJsspEnv, \
     HeuristicAttentionJsspEnv
 from stable_baselines3.common.env_checker import check_env
 
