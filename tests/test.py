@@ -1,6 +1,6 @@
 import os
-os.sys.path.insert(0, '../gymjssp')
-from gymjssp.jsspenv import HeuristicAttentionJsspEnv
+os.sys.path.insert(0, '../gymjsp')
+from gymjsp.jsspenv import HeuristicAttentionJsspEnv
 
 env = HeuristicAttentionJsspEnv('swv01', schedule_cycle=10)
 env.reset()

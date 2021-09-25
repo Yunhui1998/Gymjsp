@@ -1,6 +1,6 @@
 import os
 import numpy as np
-import gymjssp
+import gymjsp
 
 
 def load_instance(instance: str = 'ft6'):
@@ -21,7 +21,7 @@ def load_instance(instance: str = 'ft6'):
     Example:
         >>> N, M, time_mat, machine_mat = load_instance('abz5')
     """
-    path = os.path.join(os.path.dirname(gymjssp.__file__), 'jobshop', 'jobshop.txt')
+    path = os.path.join(os.path.dirname(gymjsp.__file__), 'jobshop', 'jobshop.txt')
     
     assert os.path.exists(path)
     assert os.path.isfile(path)
@@ -92,7 +92,7 @@ def load_random(N, M):
         >>> I, N, M, time_mat, machine_mat = load_random(30, 15)
     """
 
-    path = os.path.join(os.path.dirname(gymjssp.__file__), 'jobshop','tai{}_{}.txt'.format(N, M))
+    path = os.path.join(os.path.dirname(gymjsp.__file__), 'jobshop','tai{}_{}.txt'.format(N, M))
     # print(path)
     assert os.path.exists(path)
     assert os.path.isfile(path)
