@@ -35,3 +35,6 @@ env.render()
 ## Release Notes
 
 There used to be release notes for all the new Gymjsp versions here. New release notes are being moved to [releases page](https://github.com/Yunhui1998/Gymjsp) on GitHub, like most other libraries do.
+
+## Related paper
+Hybrid intelligence for dynamic job-shop scheduling with deep reinforcement learning and attention mechanism(https://arxiv.org/abs/2201.00548)
